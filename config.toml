@@ -11,7 +11,7 @@ title = "Amanda"
 description = "a blog sphere where i can post about my learnings"
 author = "Amanda Barboza"
 keywords = "javascript"
-favicon = "favicons/"
+favicon = "favicons/icons8-girl-and-math-equation-50.png"
 customCss = []
 mainSections = ["post"]
 
