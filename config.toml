@@ -1,0 +1,42 @@
+baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "my rocketseat challenge blogpost"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+
+[params]
+title = "Amanda"
+description = "a blog sphere where i can post about my learnings"
+author = "Amanda Barboza"
+keywords = "javascript"
+favicon = "favicons/"
+customCss = []
+mainSections = ["post"]
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/amandabrbz"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/amandabrbz"
+
+[[params.socialIcons]]
+icon = "fa-twitter"
+title = "twitter"
+url = "https://www.twitter.com/amandabrbz"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 200
+  url = "/"
