@@ -6,9 +6,19 @@
     <description>Recent content in Tags on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 15 Jun 2020 21:27:44 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>pratica</title>
+      <link>https://rocketseat-challenges.netlify.app/tags/pratica/</link>
+      <pubDate>Mon, 15 Jun 2020 21:27:44 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/tags/pratica/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

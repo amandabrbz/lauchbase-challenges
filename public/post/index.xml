@@ -17,15 +17,15 @@
       <pubDate>Mon, 15 Jun 2020 21:27:44 -0300</pubDate>
       
       <guid>https://rocketseat-challenges.netlify.app/post/my-first-post/</guid>
-      <description>console.log(&amp;#34;hello world&amp;#34;) </description>
+      <description>console.log(&amp;quot;hello world&amp;quot;) </description>
     </item>
     
     <item>
-      <title>Starter JavaScript</title>
-      <link>https://rocketseat-challenges.netlify.app/post/primeiros-passos/</link>
+      <title>Primeiros desafios</title>
+      <link>https://rocketseat-challenges.netlify.app/post/challenge1/</link>
       <pubDate>Mon, 15 Jun 2020 21:27:44 -0300</pubDate>
       
-      <guid>https://rocketseat-challenges.netlify.app/post/primeiros-passos/</guid>
+      <guid>https://rocketseat-challenges.netlify.app/post/challenge1/</guid>
       <description>Cálculo de IMC Crie um programa para calcular o IMC e nível de obesidade de uma pessoa.</description>
     </item>
     

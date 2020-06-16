@@ -1,8 +1,8 @@
 ---
-title: "Starter JavaScript"
+title: "Primeiros desafios"
 date: 2020-06-15T21:27:44-03:00
 Description: "!!!"
-Tags: []
+Tags: ["pratica"]
 Categories: []
 DisableComments: true
 Draft: false

@@ -18,16 +18,22 @@
   </url>
   
   <url>
-    <loc>https://rocketseat-challenges.netlify.app/post/primeiros-passos/</loc>
+    <loc>https://rocketseat-challenges.netlify.app/tags/pratica/</loc>
+    <lastmod>2020-06-15T21:27:44-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rocketseat-challenges.netlify.app/post/challenge1/</loc>
+    <lastmod>2020-06-15T21:27:44-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rocketseat-challenges.netlify.app/tags/</loc>
     <lastmod>2020-06-15T21:27:44-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://rocketseat-challenges.netlify.app/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rocketseat-challenges.netlify.app/tags/</loc>
   </url>
   
 </urlset>

@@ -8,6 +8,6 @@ DisableComments: true
 Draft: false
 ---
 
-```sh
+```
 console.log("hello world")
 ```
