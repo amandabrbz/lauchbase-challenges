@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pratica on my rocketseat challenge blogpost</title>
-    <link>https://rocketseat-challenges.netlify.app/tags/pratica/</link>
+    <link>https://rocketseat-challenges.netlify.app/categories/pratica/</link>
     <description>Recent content in pratica on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 16 Jun 2020 13:49:59 -0300</lastBuildDate>
     
-	<atom:link href="https://rocketseat-challenges.netlify.app/tags/pratica/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rocketseat-challenges.netlify.app/categories/pratica/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

@@ -1,10 +1,10 @@
 ---
-title: "Primeiros desafios"
-date: 2020-06-15T21:27:44-03:00
-Description: "!!!"
+title: "Start JavaScript"
+date: 2020-06-16T13:49:59-03:00
+Description: ""
 Tags: ["pratica"]
-Categories: []
-DisableComments: true
+Categories: ["pratica"]
+DisableComments: false
 Draft: false
 ---
 

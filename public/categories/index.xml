@@ -6,9 +6,28 @@
     <description>Recent content in Categories on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Tue, 16 Jun 2020 13:49:59 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>pratica</title>
+      <link>https://rocketseat-challenges.netlify.app/categories/pratica/</link>
+      <pubDate>Tue, 16 Jun 2020 13:49:59 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/categories/pratica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teoria</title>
+      <link>https://rocketseat-challenges.netlify.app/categories/teoria/</link>
+      <pubDate>Tue, 16 Jun 2020 13:47:35 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/categories/teoria/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

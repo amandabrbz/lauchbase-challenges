@@ -1,22 +1,16 @@
 ---
-title: "Anotações primeiro módulo"
-date: 2020-06-16T21:27:44-03:00
-Description: "!!!"
+title: "Começando na programação:"
+date: 2020-06-16T13:47:35-03:00
+Description: ""
 Tags: ["teoria"]
-Categories: []
-DisableComments: true
+Categories: ["teoria"]
+DisableComments: false
 Draft: false
 ---
 
 ## Iniciando na programação
 
 Programação nada mais é do que ensinar ao computar a executar tarefas, através dos comados. Esses comandos podem ser chamados de ALGORITMOS, que são instruções, contendo regras, para executar as tarefas.
-
-**Obs:** Para executar um arquivo .js, não há necessidade de criar um arquivo html com a importação do script na página, pode rodar no terminal o arquivo:
-
-```
-node nome-do-arquivo.js
-```
 
 ### Tipos de variáveis
 
@@ -91,3 +85,9 @@ Diferente:  `!` ou diferente e diferente de tipo: `!==`
 `/` divisão
 
 `%` resto da divisão
+
+**Obs:** Para executar um arquivo .js, não há necessidade de criar um arquivo html com a importação do script na página, pode rodar no terminal o arquivo:
+
+```
+node nome-do-arquivo.js
+```

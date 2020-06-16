@@ -6,27 +6,27 @@
     <description>Recent content in Posts on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2020 21:27:44 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2020 13:49:59 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post!!</title>
-      <link>https://rocketseat-challenges.netlify.app/post/my-first-post/</link>
-      <pubDate>Mon, 15 Jun 2020 21:27:44 -0300</pubDate>
+      <title>Start JavaScript</title>
+      <link>https://rocketseat-challenges.netlify.app/post/pratica01/</link>
+      <pubDate>Tue, 16 Jun 2020 13:49:59 -0300</pubDate>
       
-      <guid>https://rocketseat-challenges.netlify.app/post/my-first-post/</guid>
-      <description>console.log(&amp;quot;hello world&amp;quot;) </description>
+      <guid>https://rocketseat-challenges.netlify.app/post/pratica01/</guid>
+      <description>Cálculo de IMC Crie um programa para calcular o IMC e nível de obesidade de uma pessoa.</description>
     </item>
     
     <item>
-      <title>Primeiros desafios</title>
-      <link>https://rocketseat-challenges.netlify.app/post/challenge1/</link>
-      <pubDate>Mon, 15 Jun 2020 21:27:44 -0300</pubDate>
+      <title>Começando na programação:</title>
+      <link>https://rocketseat-challenges.netlify.app/post/conteudo01/</link>
+      <pubDate>Tue, 16 Jun 2020 13:47:35 -0300</pubDate>
       
-      <guid>https://rocketseat-challenges.netlify.app/post/challenge1/</guid>
-      <description>Cálculo de IMC Crie um programa para calcular o IMC e nível de obesidade de uma pessoa.</description>
+      <guid>https://rocketseat-challenges.netlify.app/post/conteudo01/</guid>
+      <description>Iniciando na programação Programação nada mais é do que ensinar ao computar a executar tarefas, através dos comados.</description>
     </item>
     
   </channel>

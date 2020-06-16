@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teoria on my rocketseat challenge blogpost</title>
+    <link>https://rocketseat-challenges.netlify.app/categories/teoria/</link>
+    <description>Recent content in teoria on my rocketseat challenge blogpost</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Jun 2020 13:47:35 -0300</lastBuildDate>
+    
+	<atom:link href="https://rocketseat-challenges.netlify.app/categories/teoria/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Começando na programação:</title>
+      <link>https://rocketseat-challenges.netlify.app/post/conteudo01/</link>
+      <pubDate>Tue, 16 Jun 2020 13:47:35 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/post/conteudo01/</guid>
+      <description>Iniciando na programação Programação nada mais é do que ensinar ao computar a executar tarefas, através dos comados.</description>
+    </item>
+    
+  </channel>
+</rss>
