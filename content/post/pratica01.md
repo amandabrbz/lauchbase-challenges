@@ -3,7 +3,6 @@ title: "Start JavaScript"
 date: 2020-06-16T13:49:59-03:00
 Description: ""
 Tags: ["pratica"]
-Categories: ["pratica"]
 DisableComments: false
 Draft: false
 ---

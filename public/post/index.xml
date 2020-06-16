@@ -6,10 +6,28 @@
     <description>Recent content in Posts on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2020 13:49:59 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2020 17:04:06 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Praticando Vetores e Objetos</title>
+      <link>https://rocketseat-challenges.netlify.app/post/pratica02/</link>
+      <pubDate>Tue, 16 Jun 2020 17:04:06 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/post/pratica02/</guid>
+      <description>Construção e impressão de objetos Crie um programa que armazena dados da empresa Rocketseat dentro de um objeto chamado empresa.</description>
+    </item>
+    
+    <item>
+      <title>Objetos e Vetores</title>
+      <link>https://rocketseat-challenges.netlify.app/post/teoria02/</link>
+      <pubDate>Tue, 16 Jun 2020 17:02:02 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/post/teoria02/</guid>
+      <description>Objetos Podem ser considerados como uma coleção de propriedade e funcionalidades.</description>
+    </item>
     
     <item>
       <title>Start JavaScript</title>

@@ -3,37 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rocketseat-challenges.netlify.app/categories/</loc>
-    <lastmod>2020-06-16T13:49:59-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rocketseat-challenges.netlify.app/</loc>
-    <lastmod>2020-06-16T13:49:59-03:00</lastmod>
+    <lastmod>2020-06-16T17:04:06-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://rocketseat-challenges.netlify.app/post/</loc>
-    <lastmod>2020-06-16T13:49:59-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rocketseat-challenges.netlify.app/categories/pratica/</loc>
-    <lastmod>2020-06-16T13:49:59-03:00</lastmod>
+    <lastmod>2020-06-16T17:04:06-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://rocketseat-challenges.netlify.app/tags/pratica/</loc>
-    <lastmod>2020-06-16T13:49:59-03:00</lastmod>
+    <lastmod>2020-06-16T17:04:06-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rocketseat-challenges.netlify.app/post/pratica01/</loc>
-    <lastmod>2020-06-16T13:49:59-03:00</lastmod>
+    <loc>https://rocketseat-challenges.netlify.app/post/pratica02/</loc>
+    <lastmod>2020-06-16T17:04:06-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://rocketseat-challenges.netlify.app/tags/</loc>
+    <lastmod>2020-06-16T17:04:06-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rocketseat-challenges.netlify.app/post/teoria02/</loc>
+    <lastmod>2020-06-16T17:02:02-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rocketseat-challenges.netlify.app/tags/teoria/</loc>
+    <lastmod>2020-06-16T17:02:02-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rocketseat-challenges.netlify.app/post/pratica01/</loc>
     <lastmod>2020-06-16T13:49:59-03:00</lastmod>
   </url>
   
@@ -43,13 +48,7 @@
   </url>
   
   <url>
-    <loc>https://rocketseat-challenges.netlify.app/categories/teoria/</loc>
-    <lastmod>2020-06-16T13:47:35-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rocketseat-challenges.netlify.app/tags/teoria/</loc>
-    <lastmod>2020-06-16T13:47:35-03:00</lastmod>
+    <loc>https://rocketseat-challenges.netlify.app/categories/</loc>
   </url>
   
 </urlset>

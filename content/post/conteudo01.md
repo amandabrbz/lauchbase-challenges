@@ -3,7 +3,6 @@ title: "Começando na programação:"
 date: 2020-06-16T13:47:35-03:00
 Description: ""
 Tags: ["teoria"]
-Categories: ["teoria"]
 DisableComments: false
 Draft: false
 ---
