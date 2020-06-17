@@ -28,16 +28,18 @@ _A empresa Rocketseat está localizada em Rua Guilherme Gembala, 260_
 
 ```js
 const empresa = {
-    nome: "RocketSeat",
-    cor: "roxo",
-    foco: "programação",
-    endereco: {
-        rua: "Rua: Rua Guilherme Gembala",
-        numero: 260
-    }
-}
+  nome: "RocketSeat",
+  cor: "roxo",
+  foco: "programação",
+  endereco: {
+    rua: "Rua: Rua Guilherme Gembala",
+    numero: 260,
+  },
+};
 
-console.log(`A ${empresa.nome} que possui como tema a cor ${empresa.cor} e foco em ${empresa.foco}, está localizada na ${empresa.endereco.rua} no número ${empresa.endereco.numero}.`);
+console.log(
+  `A ${empresa.nome} que possui como tema a cor ${empresa.cor} e foco em ${empresa.foco}, está localizada na ${empresa.endereco.rua} no número ${empresa.endereco.numero}.`
+);
 
 //A RocketSeat que possui como tema a cor roxo e foco em programação, está localizada na Rua: Rua Guilherme Gembala no número 260.
 ```
@@ -62,8 +64,8 @@ Por exemplo:
 const objeto = {
   propriedade: [
     { nome: "C++", especialidade: "Desktop" },
-    { nome: "JavaScript", especialidade: "Web/Mobile" }
-  ]
+    { nome: "JavaScript", especialidade: "Web/Mobile" },
+  ],
 };
 ```
 
@@ -80,10 +82,16 @@ const programadoras = [
   {
     dev: "Amanda",
     idade: 24,
-    linguagem: {
-      principal: "JavaScript",
-      foco: "Web development",
-    },
+    linguagem: [
+      {
+        principal: "JavaScript",
+        foco: "Web development",
+      },
+      {
+        principal: "Go",
+        foco: "aprendizado",
+      },
+    ],
   },
   {
     dev: "Erika",
@@ -95,6 +103,7 @@ const programadoras = [
   },
 ];
 
-console.log(`A programadora ${programadoras[0].dev} tem ${programadoras[0].idade} anos e usa o ${programadoras[0].linguagem.principal} com foco em ${programadoras[0].linguagem.foco}`); //A programadora Amanda tem 24 anos e usa o JavaScript com foco em Web development
-
+console.log(
+  `A programadora ${programadoras[0].dev} tem ${programadoras[0].idade} anos e usa o ${programadoras[0].linguagem[0].principal} com foco em ${programadoras[0].linguagem[1].foco}`
+); //A programadora Amanda tem 24 anos e usa o JavaScript com foco em Web development
 ```

@@ -109,16 +109,18 @@
 <p><em>A empresa Rocketseat está localizada em Rua Guilherme Gembala, 260</em></p>
 <h3 id="resultado">Resultado</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">empresa</span> <span style="color:#f92672">=</span> {
-    <span style="color:#a6e22e">nome</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;RocketSeat&#34;</span>,
-    <span style="color:#a6e22e">cor</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;roxo&#34;</span>,
-    <span style="color:#a6e22e">foco</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;programação&#34;</span>,
-    <span style="color:#a6e22e">endereco</span><span style="color:#f92672">:</span> {
-        <span style="color:#a6e22e">rua</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Rua: Rua Guilherme Gembala&#34;</span>,
-        <span style="color:#a6e22e">numero</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">260</span>
-    }
-}
+  <span style="color:#a6e22e">nome</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;RocketSeat&#34;</span>,
+  <span style="color:#a6e22e">cor</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;roxo&#34;</span>,
+  <span style="color:#a6e22e">foco</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;programação&#34;</span>,
+  <span style="color:#a6e22e">endereco</span><span style="color:#f92672">:</span> {
+    <span style="color:#a6e22e">rua</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Rua: Rua Guilherme Gembala&#34;</span>,
+    <span style="color:#a6e22e">numero</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">260</span>,
+  },
+};
 
-<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`</span><span style="color:#e6db74">A </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">nome</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> que possui como tema a cor </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">cor</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> e foco em </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">foco</span><span style="color:#e6db74">}</span><span style="color:#e6db74">, está localizada na </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">endereco</span>.<span style="color:#a6e22e">rua</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> no número </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">endereco</span>.<span style="color:#a6e22e">numero</span><span style="color:#e6db74">}</span><span style="color:#e6db74">.</span><span style="color:#e6db74">`</span>);
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(
+  <span style="color:#e6db74">`</span><span style="color:#e6db74">A </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">nome</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> que possui como tema a cor </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">cor</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> e foco em </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">foco</span><span style="color:#e6db74">}</span><span style="color:#e6db74">, está localizada na </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">endereco</span>.<span style="color:#a6e22e">rua</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> no número </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">empresa</span>.<span style="color:#a6e22e">endereco</span>.<span style="color:#a6e22e">numero</span><span style="color:#e6db74">}</span><span style="color:#e6db74">.</span><span style="color:#e6db74">`</span>
+);
 
 <span style="color:#75715e">//A RocketSeat que possui como tema a cor roxo e foco em programação, está localizada na Rua: Rua Guilherme Gembala no número 260.
 </span></code></pre></div><h3 id="vetores-e-objetos">Vetores e objetos</h3>
@@ -132,8 +134,8 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">objeto</span> <span style="color:#f92672">=</span> {
   <span style="color:#a6e22e">propriedade</span><span style="color:#f92672">:</span> [
     { <span style="color:#a6e22e">nome</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;C++&#34;</span>, <span style="color:#a6e22e">especialidade</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Desktop&#34;</span> },
-    { <span style="color:#a6e22e">nome</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;JavaScript&#34;</span>, <span style="color:#a6e22e">especialidade</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Web/Mobile&#34;</span> }
-  ]
+    { <span style="color:#a6e22e">nome</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;JavaScript&#34;</span>, <span style="color:#a6e22e">especialidade</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Web/Mobile&#34;</span> },
+  ],
 };
 </code></pre></div><p>Imprima em tela o nome e especialidade da primeira tecnologia que o usuário utiliza no seguinte formato:</p>
 <pre><code>O usuário Carlos tem 32 anos e usa a tecnologia C++ com especialidade em Desktop
@@ -142,10 +144,16 @@
   {
     <span style="color:#a6e22e">dev</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Amanda&#34;</span>,
     <span style="color:#a6e22e">idade</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">24</span>,
-    <span style="color:#a6e22e">linguagem</span><span style="color:#f92672">:</span> {
-      <span style="color:#a6e22e">principal</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;JavaScript&#34;</span>,
-      <span style="color:#a6e22e">foco</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Web development&#34;</span>,
-    },
+    <span style="color:#a6e22e">linguagem</span><span style="color:#f92672">:</span> [
+      {
+        <span style="color:#a6e22e">principal</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;JavaScript&#34;</span>,
+        <span style="color:#a6e22e">foco</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Web development&#34;</span>,
+      },
+      {
+        <span style="color:#a6e22e">principal</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Go&#34;</span>,
+        <span style="color:#a6e22e">foco</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;aprendizado&#34;</span>,
+      },
+    ],
   },
   {
     <span style="color:#a6e22e">dev</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Erika&#34;</span>,
@@ -157,9 +165,10 @@
   },
 ];
 
-<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`</span><span style="color:#e6db74">A programadora </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">programadoras</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">dev</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> tem </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">programadoras</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">idade</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> anos e usa o </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">programadoras</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">linguagem</span>.<span style="color:#a6e22e">principal</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> com foco em </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">programadoras</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">linguagem</span>.<span style="color:#a6e22e">foco</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>); <span style="color:#75715e">//A programadora Amanda tem 24 anos e usa o JavaScript com foco em Web development
-</span><span style="color:#75715e"></span>
-</code></pre></div>
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(
+  <span style="color:#e6db74">`</span><span style="color:#e6db74">A programadora </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">programadoras</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">dev</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> tem </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">programadoras</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">idade</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> anos e usa o </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">programadoras</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">linguagem</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">principal</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> com foco em </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">programadoras</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">linguagem</span>[<span style="color:#ae81ff">1</span>].<span style="color:#a6e22e">foco</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>
+); <span style="color:#75715e">//A programadora Amanda tem 24 anos e usa o JavaScript com foco em Web development
+</span></code></pre></div>
     </div>
     <div class="post-footer">
       <div class="info">
