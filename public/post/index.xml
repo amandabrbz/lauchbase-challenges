@@ -6,10 +6,19 @@
     <description>Recent content in Posts on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2020 17:04:06 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 23:50:00 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Variáveis e Escopo</title>
+      <link>https://rocketseat-challenges.netlify.app/post/teoria03/</link>
+      <pubDate>Wed, 17 Jun 2020 23:50:00 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/post/teoria03/</guid>
+      <description>Variáveis Atualmente temos 3 tipos de variáveis e que são necessários o entendimento do seu tipo na hora da criação da variável.</description>
+    </item>
     
     <item>
       <title>Praticando Vetores e Objetos</title>

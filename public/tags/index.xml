@@ -6,10 +6,19 @@
     <description>Recent content in Tags on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2020 17:04:06 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 23:50:00 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>teoria</title>
+      <link>https://rocketseat-challenges.netlify.app/tags/teoria/</link>
+      <pubDate>Wed, 17 Jun 2020 23:50:00 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/tags/teoria/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>pratica</title>
@@ -17,15 +26,6 @@
       <pubDate>Tue, 16 Jun 2020 17:04:06 -0300</pubDate>
       
       <guid>https://rocketseat-challenges.netlify.app/tags/pratica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>teoria</title>
-      <link>https://rocketseat-challenges.netlify.app/tags/teoria/</link>
-      <pubDate>Tue, 16 Jun 2020 17:02:02 -0300</pubDate>
-      
-      <guid>https://rocketseat-challenges.netlify.app/tags/teoria/</guid>
       <description></description>
     </item>
     

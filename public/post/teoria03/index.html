@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Amanda Barboza | teoria </title>
+    <title> Amanda Barboza | Variáveis e Escopo </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.64.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="a blog sphere where i can post about my learnings">
     
@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://rocketseat-challenges.netlify.app/favicons/icons8-girl-and-math-equation-50.pngapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://rocketseat-challenges.netlify.app/favicons/icons8-girl-and-math-equation-50.pngfavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://rocketseat-challenges.netlify.app/favicons/icons8-girl-and-math-equation-50.pngfavicon-16x16.png">
-    <link rel="canonical" href="https://rocketseat-challenges.netlify.app/tags/teoria/">
+    <link rel="canonical" href="https://rocketseat-challenges.netlify.app/post/teoria03/">
     
     
     <script type="text/javascript" src="https://rocketseat-challenges.netlify.app/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
@@ -71,38 +71,54 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive">
-   
-    <ul class="list-with-title">
+<div class="post">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Variáveis e Escopo
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Wed, Jun 17, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">1-minute read</span>
+        </div>
+        
+        </div>
+
+    <h2 id="variáveis">Variáveis</h2>
+<p>Atualmente temos 3 tipos de variáveis e que são necessários o entendimento do seu tipo na hora da criação da variável.</p>
+<p><strong>const</strong> == recebe valores que serão FIXOS e não poderão ser alterados ao decorrer do programa.</p>
+<p><strong>let</strong> == recebe valores que servirão apenas para aquele escopo do código, ou seja, não podem ser acessados globalmente, mas podem sofrer alteraçnoes dentro do escopo previsto.</p>
+<p><strong>var</strong> == recebe valores que podem ser acessados em qualquer escopo, portanto podem sofrer alterações ao decorrer do programa.</p>
+<h3 id="escopo">Escopo</h3>
+<p>Se refere ao bloco de código contido naquele método/função/condição</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">calculaMedia</span>(<span style="color:#a6e22e">alunos</span>) {
+  <span style="color:#75715e">//inicio do escopo
+</span><span style="color:#75715e"></span>
+  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">soma</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">i</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">alunos</span>.<span style="color:#a6e22e">lenght</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+    <span style="color:#75715e">//+ inicio do escopo
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">soma</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">soma</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">alunos</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">nota</span>;
+  }
+
+  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">soma</span>;
+}
+</code></pre></div>
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+    <span class="separator"><a class="tag" href="/tags/teoria/">teoria</a></span>
+
+      </div>
+    </div>
+
+    
            
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://rocketseat-challenges.netlify.app/post/teoria03/" title="Variáveis e Escopo">Variáveis e Escopo</a>
-              <div class="post-time"><span class="date">Jun 17</span></div>
-            </div>
-          </div>
-    </ul>
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://rocketseat-challenges.netlify.app/post/teoria02/" title="Objetos e Vetores">Objetos e Vetores</a>
-              <div class="post-time"><span class="date">Jun 16</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://rocketseat-challenges.netlify.app/post/conteudo01/" title="Começando na programação:">Começando na programação:</a>
-              <div class="post-time"><span class="date">Jun 16</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>
