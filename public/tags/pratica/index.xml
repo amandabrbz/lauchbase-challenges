@@ -6,10 +6,19 @@
     <description>Recent content in pratica on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2020 17:04:06 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 00:05:25 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/tags/pratica/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Praticando Functions e Estruturas de Repetição</title>
+      <link>https://rocketseat-challenges.netlify.app/post/pratica03/</link>
+      <pubDate>Thu, 18 Jun 2020 00:05:25 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/post/pratica03/</guid>
+      <description>🚀 Sobre o desafio Desafios para fortalecer alguns conceitos, entre eles:</description>
+    </item>
     
     <item>
       <title>Praticando Vetores e Objetos</title>

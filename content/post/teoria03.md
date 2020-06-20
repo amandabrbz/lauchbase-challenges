@@ -22,15 +22,19 @@ Atualmente temos 3 tipos de variáveis e que são necessários o entendimento do
 Se refere ao bloco de código contido naquele método/função/condição
 
 ```js
+//+ inicio do escopo
 function calculaMedia(alunos) {
-  //inicio do escopo
+  //+ inicio do escopo
 
   let soma = 0;
   for (let = i; i < alunos.lenght; i++) {
     //+ inicio do escopo
     soma = soma + alunos[i].nota;
+    //fecha escopo
   }
 
   return soma;
+  //fecha escopo
 }
+//continua escopo
 ```
