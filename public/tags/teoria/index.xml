@@ -6,10 +6,19 @@
     <description>Recent content in teoria on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2020 23:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 14:09:44 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/tags/teoria/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>True or false?</title>
+      <link>https://rocketseat-challenges.netlify.app/post/teoria05/</link>
+      <pubDate>Sat, 20 Jun 2020 14:09:44 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/post/teoria05/</guid>
+      <description>É um tipo de dado que representa apenas dois estados, verdadeiro ou falso.</description>
+    </item>
     
     <item>
       <title>Variáveis e Escopo</title>

@@ -6,10 +6,19 @@
     <description>Recent content in pratica on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jun 2020 00:05:25 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 14:09:38 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/tags/pratica/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pratica05</title>
+      <link>https://rocketseat-challenges.netlify.app/post/pratica05/</link>
+      <pubDate>Sat, 20 Jun 2020 14:09:38 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/post/pratica05/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Praticando Functions e Estruturas de Repetição</title>
