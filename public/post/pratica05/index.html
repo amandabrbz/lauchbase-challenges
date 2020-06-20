@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Amanda Barboza | Pratica05 </title>
+    <title> Amanda Barboza | Pratica - Operações bancárias </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.64.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="a blog sphere where i can post about my learnings">
     
@@ -75,17 +75,154 @@
     <div class="post-content">
 
       <div class="post-title">
-        <h3>Pratica05
+        <h3>Pratica - Operações bancárias
         </h3>
         
         <div class="info">
           <i class="fa fa-sun-o"></i><span class="date">Sat, Jun 20, 2020</span>
-          <i class="fa fa-clock-o"></i><span class="reading-time">0-minute read</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">3-minute read</span>
         </div>
         
         </div>
 
-    
+    <p>Crie um programa para realizar operações bancárias na conta de um usuário.</p>
+<p>Comece criando um objeto com o nome do usuário, suas transações e saldo.</p>
+<p>As transações (transactions) devem iniciar como um array vazio <code>[]</code> e o saldo (balance) em <code>0</code> (zero).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> {
+  <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Mariana&#34;</span>,
+  <span style="color:#a6e22e">transactions</span><span style="color:#f92672">:</span> [],
+  <span style="color:#a6e22e">balance</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>,
+};
+</code></pre></div><h3 id="adicionar-transações">Adicionar transações</h3>
+<p>Crie uma função <code>createTransaction</code> para adicionar uma nova transação no array de transações de um usuário, essa função deve receber como parâmetro um objeto de transação que tem o seguinte formato:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">{
+  <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;credit&#39;</span>,
+  <span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">50.5</span>
+}
+</code></pre></div><p>O <code>type</code> pode ser <code>credit</code> para créditos e <code>debit</code> para débitos da conta do usuário.</p>
+<p>Quanto uma transação for do tipo <code>credit</code> ela deve também somar o valor do crédito no saldo (balance) do usuário.</p>
+<p>Se for uma transação do tipo <code>debit</code> ela deve subtrair o valor do débito no saldo (balance) do usuário.</p>
+<p><em>Dica.: Você pode usar o método <code>user.transactions.push(transaction)</code> para adicionar um novo item no array de transações.</em></p>
+<h3 id="relatórios">Relatórios</h3>
+<ul>
+<li>Crie uma função chamada <code>getHigherTransactionByType</code> que recebe como parâmetro o tipo de transação <code>credit/debit</code>, percorre as transações do usuário e retorna o <strong>objeto</strong> da transação de maior valor com aquele tipo:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">getHigherTransactionByType</span>(<span style="color:#e6db74">&#34;credit&#34;</span>); <span style="color:#75715e">// { type: &#39;credit&#39;, value: 120 }
+</span></code></pre></div><ul>
+<li>Crie uma função chamada <code>getAverageTransactionValue</code> que retorna o valor médio das transações de um usuário independente do seu tipo:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">getAverageTransactionValue</span>(); <span style="color:#75715e">// 83.3
+</span></code></pre></div><ul>
+<li>Crie uma função chamada <code>getTransactionsCount</code> que retorna o número de transações de cada tipo <code>credit/debit</code>, o retorno da função deve ser um objeto e seguir exatamente como o modelo apresentado abaixo:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">getTransactionsCount</span>(); <span style="color:#75715e">// { credit: 5, debit: 3 }
+</span></code></pre></div><h3 id="exemplo-de-resultado-final-do-projeto">Exemplo de resultado final do projeto:</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">createTransaction</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;credit&#34;</span>, <span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">50</span> });
+<span style="color:#a6e22e">createTransaction</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;credit&#34;</span>, <span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">120</span> });
+<span style="color:#a6e22e">createTransaction</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;debit&#34;</span>, <span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">80</span> });
+<span style="color:#a6e22e">createTransaction</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;debit&#34;</span>, <span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">30</span> });
+
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">balance</span>); <span style="color:#75715e">// 60
+</span><span style="color:#75715e"></span>
+<span style="color:#a6e22e">getHigherTransactionByType</span>(<span style="color:#e6db74">&#34;credit&#34;</span>); <span style="color:#75715e">// { type: &#39;credit&#39;, value: 120 }
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">getHigherTransactionByType</span>(<span style="color:#e6db74">&#34;debit&#34;</span>); <span style="color:#75715e">// { type: &#39;debit&#39;, value: 80 }
+</span><span style="color:#75715e"></span>
+<span style="color:#a6e22e">getAverageTransactionValue</span>(); <span style="color:#75715e">// 70
+</span><span style="color:#75715e"></span>
+<span style="color:#a6e22e">getTransactionsCount</span>(); <span style="color:#75715e">// { credit: 2, debit: 2 }
+</span></code></pre></div><h2 id="resultado">Resultado</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> {
+  <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Mariana&#34;</span>,
+  <span style="color:#a6e22e">transactions</span><span style="color:#f92672">:</span> [],
+  <span style="color:#a6e22e">balance</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>,
+};
+
+<span style="color:#75715e">//cria uma função para adicionar uma nova transação
+</span><span style="color:#75715e"></span><span style="color:#75715e">//passa transaction como uma nova variavel
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">createTransaction</span>(<span style="color:#a6e22e">transaction</span>) {
+  <span style="color:#75715e">// encaminha para o array onde adicionar a transaction
+</span><span style="color:#75715e"></span>  <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">transactions</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">transaction</span>);
+
+  <span style="color:#75715e">//condicao para classificar a transaction como credito
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">transaction</span>.<span style="color:#a6e22e">type</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;credit&#34;</span>) {
+    <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">balance</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">balance</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">transaction</span>.<span style="color:#a6e22e">value</span>;
+  } <span style="color:#66d9ef">else</span> {
+    <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">balance</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">balance</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">transaction</span>.<span style="color:#a6e22e">value</span>;
+  }
+}
+
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getHigherTransactionByType</span>(<span style="color:#a6e22e">transactionType</span>) {
+  <span style="color:#75715e">//valor de comparação
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">higherValue</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+  <span style="color:#75715e">//variavel qualquer
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">higherTransaction</span>;
+
+  <span style="color:#75715e">//para cada transação do usuario
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">transaction</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">transactions</span>) {
+    <span style="color:#75715e">// vai comparar a transação passada com a do array e ver se é maior que 0
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (
+      <span style="color:#a6e22e">transaction</span>.<span style="color:#a6e22e">type</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">transactionType</span> <span style="color:#f92672">&amp;&amp;</span>
+      <span style="color:#a6e22e">transaction</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">higherValue</span>
+    ) {
+      <span style="color:#75715e">//variavel qualquer recebe e a transação maior
+</span><span style="color:#75715e"></span>      <span style="color:#a6e22e">higherTransaction</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">transaction</span>;
+    }
+  }
+
+  <span style="color:#75715e">//retorna a maior transaçao
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">higherTransaction</span>;
+}
+
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getAverageTransactionValue</span>() {
+  <span style="color:#75715e">//cria uma variavel inicial
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">soma</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+
+  <span style="color:#75715e">//percorre o array de transações
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">transaction</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">transactions</span>) {
+    <span style="color:#75715e">//faz a soma com o valor da transação
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">soma</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">soma</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">transaction</span>.<span style="color:#a6e22e">value</span>;
+  }
+
+  <span style="color:#75715e">//retorna a operação
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">soma</span> <span style="color:#f92672">/</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">transactions</span>.<span style="color:#a6e22e">length</span>;
+}
+
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getTransactionsCount</span>() {
+  <span style="color:#75715e">//objeto para contar as transações
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">numberTransaction</span> <span style="color:#f92672">=</span> {
+    <span style="color:#a6e22e">debit</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>,
+    <span style="color:#a6e22e">credit</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>,
+  };
+
+  <span style="color:#75715e">//percorre o array de transações
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">transaction</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">transactions</span>) {
+    <span style="color:#75715e">//para cada operação
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">transaction</span>.<span style="color:#a6e22e">type</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;credit&#34;</span>) {
+      <span style="color:#75715e">//adiciona 1
+</span><span style="color:#75715e"></span>      <span style="color:#a6e22e">numberTransaction</span>.<span style="color:#a6e22e">credit</span><span style="color:#f92672">++</span>;
+    } <span style="color:#66d9ef">else</span> {
+      <span style="color:#75715e">//adiciona 1
+</span><span style="color:#75715e"></span>      <span style="color:#a6e22e">numberTransaction</span>.<span style="color:#a6e22e">debit</span><span style="color:#f92672">++</span>;
+    }
+  }
+
+  <span style="color:#75715e">//retorna o objeto atualizado
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">numberTransaction</span>;
+}
+
+<span style="color:#75715e">//adicionando transações
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">createTransaction</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;credit&#34;</span>, <span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">250</span> });
+<span style="color:#a6e22e">createTransaction</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;debit&#34;</span>, <span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">250</span> });
+<span style="color:#a6e22e">createTransaction</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;debit&#34;</span>, <span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">650</span> });
+<span style="color:#a6e22e">createTransaction</span>({ <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;debit&#34;</span>, <span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">750</span> });
+
+<span style="color:#75715e">//imprimindo maiores transações
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">getHigherTransactionByType</span>(<span style="color:#e6db74">&#34;debit&#34;</span>));
+<span style="color:#75715e">//média de transações
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">getAverageTransactionValue</span>().<span style="color:#a6e22e">toFixed</span>(<span style="color:#ae81ff">2</span>));
+<span style="color:#75715e">//count de transações
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">getTransactionsCount</span>());
+</code></pre></div>
     </div>
     <div class="post-footer">
       <div class="info">
