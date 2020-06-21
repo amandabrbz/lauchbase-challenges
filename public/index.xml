@@ -6,10 +6,19 @@
     <description>Recent content on my rocketseat challenge blogpost</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Jun 2020 14:09:44 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 16:24:20 -0300</lastBuildDate>
     
 	<atom:link href="https://rocketseat-challenges.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Iniciando o Front end</title>
+      <link>https://rocketseat-challenges.netlify.app/post/teoria04-01/</link>
+      <pubDate>Sat, 20 Jun 2020 16:24:20 -0300</pubDate>
+      
+      <guid>https://rocketseat-challenges.netlify.app/post/teoria04-01/</guid>
+      <description>O que é back end x front end? Para entender os conceitos, precisamos entender cliente e servidor:</description>
+    </item>
     
     <item>
       <title>True or false?</title>
